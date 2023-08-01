@@ -1,0 +1,54 @@
+.ProdEvent {
+  height: 160px;
+  width: 240px;
+  background: #ff8c04;
+  box-shadow: 0px 2px 5px rgba(38, 51, 77, 0.25);
+  border-radius: 10px;
+  margin-left: 860px;
+  transform: translateY(-542px);
+
+  h2 {
+    position: relative;
+    top: 20px;
+    left: 20px;
+    transform: translateX(-60px);
+    font-family: "Rubik";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 30px;
+    text-align: center;
+    color: #ffffff;
+  }
+
+  img {
+    position: relative;
+    margin-left: 160px;
+    bottom: 20px;
+  }
+
+  p {
+    font-family: "Rubik";
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 30px;
+    text-align: center;
+    color: #ffffff;
+    margin-top: -2px;
+  }
+
+  button {
+    position: relative;
+    left: 65px;
+    bottom: 9px;
+    border-radius: 15px;
+    padding: 3px 30px;
+    background: #b65801;
+    font-family: "Roboto";
+    font-weight: semibold;
+    font-size: 12px;
+    line-height: 1.5;
+    text-align: center;
+    color: #ffffff;
+  }
+}

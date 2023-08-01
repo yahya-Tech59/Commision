@@ -1,0 +1,37 @@
+.Footer {
+  h2 {
+    font-family: "Karla";
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    color: #000000;
+
+    margin-left: 260px;
+  }
+
+  .btns {
+    position: relative;
+    left: 1000px;
+    top: -35px;
+
+    button {
+      background: #fff;
+      border-radius: 5px;
+      box-shadow: 0 2px 30px rgb(191, 194, 194);
+      height: 30px;
+    }
+    .blu {
+      background: #6125c2;
+    }
+  }
+
+  .foot {
+    margin-left: 600px;
+    padding-bottom: 20px;
+
+    span {
+      border: 1px solid #000000;
+      border-radius: 50%;
+    }
+  }
+}

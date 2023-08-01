@@ -1,0 +1,121 @@
+.ordcontainer {
+  box-shadow: 0 2px 30px rgb(191, 194, 194);
+  width: 1190px;
+  height: 660px;
+  margin-top: 150px;
+  margin-left: 90px;
+  border-radius: 20px;
+
+  table {
+    width: 800px;
+  }
+
+  th {
+    background: #6125c2;
+    position: relative;
+    top: 40px;
+    left: 20px;
+    height: 80px;
+
+    padding-left: 20px;
+    padding-right: 30px;
+    position: relative;
+    top: 18px;
+
+    font-family: "Rubik";
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 30px;
+    color: #ffffff;
+    text-align: center;
+  }
+
+  tbody {
+    background: #fff;
+    color: #000;
+    border: 1px solid #000;
+  }
+
+  .head,
+  td {
+    position: relative;
+    top: 20px;
+    left: 20px;
+    padding-bottom: 20px;
+
+    font-family: "Rubik";
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: #000000;
+  }
+
+  .pluss3 {
+    .plas {
+      background: #fff;
+      border-radius: 50%;
+      padding: 6px;
+      margin-left: -180px;
+      margin-top: 5px;
+    }
+
+    height: 60px;
+    width: 270px;
+    border-radius: 5px;
+    background: #6125c2;
+    position: relative;
+    left: 860px;
+    top: -695px;
+    text-align: center;
+
+    h2 {
+      margin-top: -38px;
+      margin-right: -50px;
+      font-family: "Rubik";
+      font-style: normal;
+      font-weight: 500;
+      font-size: 25px;
+      line-height: 30px;
+      color: #ffffff;
+    }
+  }
+
+  .img {
+    transform: translateX(-40px);
+
+    .edit {
+      height: 60px;
+      width: 1px;
+      border-radius: 5px;
+      background: none;
+      position: relative;
+      left: 280px;
+      top: 40px;
+      border: none;
+      .edit-img {
+        background: #fff;
+        border-radius: 50%;
+        padding: 8px;
+        margin-left: -420px;
+        margin-top: 8px;
+      }
+    }
+
+    .delete {
+      border-radius: 5px;
+      background: #ffffff;
+      position: relative;
+      left: 260px;
+      top: -30px;
+      border: none;
+
+      .del {
+        background: #fff;
+        border-radius: 50%;
+        padding: 8px;
+        margin-left: -260px;
+        margin-top: 18px;
+      }
+    }
+  }
+}

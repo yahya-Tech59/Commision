@@ -1,0 +1,32 @@
+.sidebar {
+  background-color: #6125c2;
+  width: 250px;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: -20px;
+
+  h2 {
+    font-family: "Nunito";
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 27px;
+    color: #ffffff;
+
+    margin-left: 50px;
+    gap: 20px;
+  }
+
+  .items {
+    margin-left: 50px;
+  }
+
+  .icons {
+    width: 25px;
+    height: 25px;
+    color: #fff;
+    margin-top: -100px;
+    transform: translateY(-32px);
+  }
+}

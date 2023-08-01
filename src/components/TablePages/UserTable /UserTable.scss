@@ -1,0 +1,122 @@
+.usercontainer {
+  box-shadow: 0 2px 30px rgb(191, 194, 194);
+  width: 980px;
+  height: 690px;
+  transform: translateY(200px);
+  margin-left: 300px;
+  border-radius: 20px;
+
+  th {
+    background: #6125c2;
+    position: relative;
+    top: 40px;
+    left: 20px;
+    width: 160px;
+    height: 80px;
+
+    padding-left: 10px;
+    padding-right: 5px;
+    position: relative;
+    top: 18px;
+
+    font-family: "Rubik";
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 30px;
+    color: #ffffff;
+    text-align: center;
+  }
+
+  table {
+    margin-top: -50px;
+    width: 940px;
+  }
+
+  tbody {
+    background: #fff;
+    color: #000;
+    border: 1px solid #000;
+  }
+
+  .head,
+  td {
+    position: relative;
+    top: 20px;
+    left: 35px;
+    padding-bottom: 50px;
+
+    font-family: "Rubik";
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: #000000;
+  }
+
+  .pluss5 {
+    .plas {
+      background: #fff;
+      border-radius: 50%;
+      padding: 6px;
+      margin-left: -180px;
+      margin-top: 5px;
+    }
+
+    height: 60px;
+    width: 270px;
+    border-radius: 5px;
+    background: #6125c2;
+    position: relative;
+    left: 640px;
+    top: -740px;
+    text-align: center;
+
+    h2 {
+      margin-top: -38px;
+      margin-right: -50px;
+      font-family: "Rubik";
+      font-style: normal;
+      font-weight: 500;
+      font-size: 25px;
+      line-height: 30px;
+      color: #ffffff;
+    }
+  }
+
+  .img {
+    transform: translateX(-10px);
+    .edit {
+      height: 60px;
+      width: 270px;
+      border-radius: 5px;
+      background: none;
+      position: relative;
+      left: 280px;
+      top: -15px;
+      border: none;
+      .edit-img {
+        background: #fff;
+        border-radius: 50%;
+        padding: 8px;
+        margin-left: -580px;
+        margin-top: 8px;
+      }
+    }
+
+    .delete {
+      border-radius: 5px;
+      background: #ffffff;
+      position: relative;
+      left: 500px;
+      top: -85px;
+      border: none;
+
+      .del {
+        background: #fff;
+        border-radius: 50%;
+        padding: 8px;
+        margin-left: -640px;
+        margin-top: 18px;
+      }
+    }
+  }
+}
